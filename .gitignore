@@ -1,0 +1,15 @@
+# Local working notes
+/AGENTS.md
+/PROJECT_STATUS.md
+/WORK_LOG.md
+/.openai/
+/.local/
+
+# Local dependencies and machine settings
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
