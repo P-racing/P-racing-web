@@ -31,9 +31,5 @@ node tests/security.cjs
 
 ## 배포
 
-`main`은 소스 브랜치, `gh-pages`는 GitHub Pages 배포 브랜치입니다.
+main 브랜치에 사이트 변경을 푸시하면 GitHub Actions가 dist 폴더를 GitHub Pages에 자동 배포합니다. 별도 배포 브랜치는 사용하지 않습니다.
 
-```sh
-git push origin main
-git subtree push --prefix=dist origin gh-pages
-```
