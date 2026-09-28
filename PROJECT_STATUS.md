@@ -6,7 +6,7 @@
 
 - 다른 AI에서도 이어서 사용할 수 있는 문서 및 지속 기록 지침 작성 완료.
 - 문서 커밋 `b1f71df`의 GitHub `main` 푸시 성공을 확인했습니다. 이 갱신은 완료 상태 기록이며 사이트 파일은 변경하지 않았습니다.
-- 진행 중: F:\source\P-racing 및 P-racing/P-racing-web 저장소로 이전. 파일 복사 완료, 검사·푸시·Pages 배포 확인 진행.
+- 이전 완료: 현재 작업 폴더는 F:\source\P-racing, GitHub는 P-racing/P-racing-web입니다. 가져오기 커밋 561e3f9 및 main/gh-pages 푸시 성공. 새 공개 URL·CSS·JS 모두 HTTP 200, 지원 링크·CSP·반응형 v7 확인.
 
 ## 프로젝트 목적과 사용자 결정
 
@@ -28,7 +28,7 @@
 | 로컬 실행 | `node server.mjs` → http://127.0.0.1:4173 |
 | 원격 / 브랜치 | `origin`, 편집 소스 `main`, 배포 파일 `gh-pages` |
 
-이전 Sites 미리보기는 별도 서비스에 남아 있습니다. 현재 공개 기준은 GitHub Pages이며, 이후 GitHub 수정분이 Sites에도 자동 반영되는 것은 아닙니다.
+이전 Sites 미리보기는 별도 서비스에 남아 있습니다. 현재 공개 기준은 https://p-racing.github.io/P-racing-web/ 이며, 이후 GitHub 수정분이 Sites에도 자동 반영되는 것은 아닙니다.
 
 ## 구성
 
@@ -87,4 +87,4 @@
 5. 사이트 파일 변경 시 `git subtree push --prefix=dist origin gh-pages`.
 6. 공개 배포 확인 후 이 문서와 `WORK_LOG.md` 갱신. 문서 최종 갱신만 남으면 문서 커밋을 `main`에 추가 푸시.
 
-인증은 실행 환경의 정상적인 Git 로그인 수단을 사용합니다. 토큰을 파일·로그·명령 출력에 남기지 않습니다. 기존 Windows 환경에서는 `gh`/`npm` 명령을 찾지 못했지만 `git`과 `node`로 작업했으며, 다른 환경에서는 재확인하세요.
+인증은 실행 환경의 정상적인 Git 로그인 수단을 사용합니다. 토큰을 파일·로그·명령 출력에 남기지 않습니다. 2026-09-28에는 node가 PATH에 없어 C:\Users\rwd0327\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe로 테스트했습니다. 다른 환경에서는 실행 파일 경로를 재확인하세요.

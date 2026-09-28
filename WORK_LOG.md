@@ -69,3 +69,10 @@
 - 대상: F:\source\P-racing, https://github.com/P-racing/P-racing-web. 대상 초기 README 커밋을 유지하고 파일을 가져옴. 새 대상의 origin은 조직 저장소.
 - 이전 Sites 식별 설정은 제외. 지원 링크, 기기별 최적화, 보안 정책, 테스트 및 AI 진행 기록을 유지.
 - 다음: 구문·회귀 검사, main/gh-pages 푸시, GitHub Pages 새 주소 검증.
+
+### 2026-09-28 이전 완료 확인
+- 가져오기 커밋 561e3f9, 조직 저장소 main 및 gh-pages 푸시 완료. 기존 대상 초기 커밋 유지.
+- 새 공개 URL https://p-racing.github.io/P-racing-web/ 및 CSS/JS HTTP 200 확인. 지원 링크·CSP·기기 최적화 v7 반영 확인.
+- 새 폴더에서 JS 문법·navigation/security 검사 통과. PATH의 node는 없었으므로 기존 bundled node.exe 절대 경로로 실행.
+- 원본 dist와 대상 dist의 파일 해시 차이 0. 기존 G 드라이브 원본 및 개인 저장소는 변경/삭제하지 않음.
+- 이후 작업 위치는 F:\source\P-racing. 실물 모바일 검증, 도메인 연결 등의 기존 미완료 항목은 유지.
